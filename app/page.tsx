@@ -810,7 +810,7 @@ export default function HomePage() {
                   <div className="text-[10px] font-bold uppercase tracking-[0.08em] text-gray-400">
                     GLAZE PRICE
                   </div>
-                  <div className="text-2xl font-semibold text-black">
+                  <div className="text-2xl font-semibold text-">
                     {glazePriceDisplay}
                   </div>
                   <div className="text-xs text-gray-400 -mt-1">
@@ -836,7 +836,7 @@ export default function HomePage() {
             />
 
             <Button
-              className="w-full rounded-2xl bg-black py-3 text-base font-bold text-pink-500 shadow-lg transition-colors hover:bg-pink-400 disabled:cursor-not-allowed disabled:bg-pink-500/40"
+              className="w-full rounded-2xl border border-pink-500 bg-black py-3 text-base font-bold text-pink-500 shadow-lg transition-colors hover:bg-pink-400 disabled:cursor-not-allowed disabled:bg-pink-500/40"
               onClick={handleGlaze}
               disabled={isGlazeDisabled}
             >
