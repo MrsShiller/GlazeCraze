@@ -593,7 +593,7 @@ export default function HomePage() {
   const userAvatarUrl = context?.user?.pfpUrl ?? null;
 
   return (
-    <main className="flex h-screen w-screen justify-center overflow-hidden bg-black font-mono text-white">
+    <main className="flex h-screen w-screen justify-center overflow-hidden bg-pink-500 font-mono text-white">
       {/* Add to Farcaster Dialog - shows on first visit */}
       <AddToFarcasterDialog showOnFirstVisit={true} />
 
@@ -810,7 +810,7 @@ export default function HomePage() {
                   <div className="text-[10px] font-bold uppercase tracking-[0.08em] text-gray-400">
                     GLAZE PRICE
                   </div>
-                  <div className="text-2xl font-semibold text-pink-400">
+                  <div className="text-2xl font-semibold text-black">
                     {glazePriceDisplay}
                   </div>
                   <div className="text-xs text-gray-400 -mt-1">
@@ -836,7 +836,7 @@ export default function HomePage() {
             />
 
             <Button
-              className="w-full rounded-2xl bg-pink-500 py-3 text-base font-bold text-black shadow-lg transition-colors hover:bg-pink-400 disabled:cursor-not-allowed disabled:bg-pink-500/40"
+              className="w-full rounded-2xl bg-black py-3 text-base font-bold text-pink-500 shadow-lg transition-colors hover:bg-pink-400 disabled:cursor-not-allowed disabled:bg-pink-500/40"
               onClick={handleGlaze}
               disabled={isGlazeDisabled}
             >
