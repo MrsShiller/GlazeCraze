@@ -324,7 +324,7 @@ export default function HomePage() {
           epochId,
           deadline,
           maxPrice,
-          customMessage.trim() || "We Glaze The World",
+          customMessage.trim() || "Create the glaze, own the craze",
         ],
         value: price,
         chainId: base.id,
@@ -606,7 +606,7 @@ export default function HomePage() {
       >
         <div className="flex flex-1 flex-col overflow-hidden">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold tracking-wide">GLAZERY</h1>
+            <h1 className="text-2xl font-bold tracking-wide">Glaze Craze</h1>
             {context?.user ? (
               <div className="flex items-center gap-2 rounded-full bg-black px-3 py-1">
                 <Avatar className="h-8 w-8 border border-zinc-800">
@@ -771,7 +771,7 @@ export default function HomePage() {
                 <span key={i} className="inline-block px-8">
                   {minerState?.uri && minerState.uri.trim() !== ""
                     ? minerState.uri
-                    : "We Glaze The World"}
+                    : "Create the glaze, own the craze"}
                 </span>
               ))}
             </div>

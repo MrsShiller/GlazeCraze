@@ -2,7 +2,7 @@ import "@/app/globals.css";
 import type { Metadata } from "next";
 import { Providers } from "@/components/providers";
 
-const appDomain = "https://glazecorp.vercel.app";
+const appDomain = "https://glaze-craze.vercel.app";
 const heroImageUrl = `${appDomain}/media/hero.png`;
 const splashImageUrl = `${appDomain}/media/splash.png`;
 
@@ -10,10 +10,10 @@ const miniAppEmbed = {
   version: "1",
   imageUrl: heroImageUrl,
   button: {
-    title: "We Glaze The World",
+    title: "Create the glaze, own the craze",
     action: {
       type: "launch_miniapp" as const,
-      name: "GlazeCorp",
+      name: "Glaze Craze",
       url: appDomain,
       splashImageUrl,
       splashBackgroundColor: "#FEE7EC",
@@ -22,10 +22,10 @@ const miniAppEmbed = {
 };
 
 export const metadata: Metadata = {
-  title: "We Glaze The World",
-  description: "Claim the glaze factory and earn donuts on Base.",
+  title: "Create the glaze, own the craze",
+  description: "Become King Glazer and rule the glaze craze",
   openGraph: {
-    title: "GlazeCorp",
+    title: "Glaze Craze",
     description: "Race the hive to control the donut mine and keep the glaze flowing.",
     url: appDomain,
     images: [
