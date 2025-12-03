@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   description: "Become King Glazer and rule the glaze craze",
   openGraph: {
     title: "Glaze Craze",
-    description: "Race the hive to control the donut mine and keep the glaze flowing.",
+    description: "Beat the swarm to the donut hoard and spark an endless glaze rush",
     url: appDomain,
     images: [
       {
