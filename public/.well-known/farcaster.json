@@ -1,9 +1,11 @@
 {
+  
   "accountAssociation": {
-    "header": "eyJmaWQiOjI3MjEwOSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDQ5REI1QTFjOWZlRjBFMkY5OTVCNDZiMEI3MWJFQmJEOTEyQkYwZTMifQ",
-    "payload": "eyJkb21haW4iOiJnbGF6ZWNvcnAudmVyY2VsLmFwcCJ9",
-    "signature": "Xun297i8tZiQWxuVqo5bKPxSOs1CFDa1lFzDY4dJgOYJ7l16eBnWCJSxwqrgKnR0t74OmCHW7eg5HtIHMz+NZBs="
-  },
+    "header": "eyJmaWQiOjQ3MTU0NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGVlZTQyOThiRkI4NmY1ZDFDNmZEYTRmNjE0NjgxNjY1NjJkM0NiNjEifQ",
+    "payload": "eyJkb21haW4iOiJnbGF6ZS1jcmF6ZS52ZXJjZWwuYXBwIn0",
+    "signature": "ZOkNP49duTysxGz5hn8Doh1FGHYoqnroe6x/cRGt7OAH41tyi+63U/3XaGuV8kmOKImM/GtHsAG61KYBISlalBw="
+  }
+,
   "miniapp": {
     "version": "1",
     "name": "Glaze Craze",
